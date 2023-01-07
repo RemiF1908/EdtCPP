@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="590d2024-23fb-4cfc-9a6a-bda79fc5e0a4" name="Changes" comment="First deploy !">
+    <list default="true" id="590d2024-23fb-4cfc-9a6a-bda79fc5e0a4" name="Changes" comment="J'ai oublié le titre, ça commence bien...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,8 @@
       <workItem from="1672770976251" duration="8299000" />
       <workItem from="1672854342997" duration="5643000" />
       <workItem from="1672865794504" duration="3162000" />
-      <workItem from="1673108312319" duration="3356000" />
+      <workItem from="1673108312319" duration="4239000" />
+      <workItem from="1673117799338" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="First deploy !">
       <created>1673110821808</created>
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673110821808</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="J'ai oublié le titre, ça commence bien...">
+      <created>1673114503290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673114503290</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First deploy !" />
-    <option name="LAST_COMMIT_MESSAGE" value="First deploy !" />
+    <MESSAGE value="J'ai oublié le titre, ça commence bien..." />
+    <option name="LAST_COMMIT_MESSAGE" value="J'ai oublié le titre, ça commence bien..." />
   </component>
 </project>

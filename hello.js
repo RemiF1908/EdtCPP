@@ -103,6 +103,17 @@ function addTabsItems() {
             dateFin = dateDeb + 4 * 24 * 60 * 60 * 1000
 
         } else {
+            var date ="Vacances !"
+
+            var color = 'blue';
+
+            addTabs("#tab" + "vac", date, color)
+            var tab = document.createElement("div");
+            tab.setAttribute("id", "tabvac");
+
+
+            var tabs = document.querySelector('#tab');
+            tabs.appendChild(tab);
             dateDeb += 1 * 7 * 24 * 60 * 60 * 1000
             dateFin = dateDeb + 4 * 24 * 60 * 60 * 1000
             j = j - 1
