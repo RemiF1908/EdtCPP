@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Starter template - Axentix</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <script src="hello.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axentix@2.2.1/dist/axentix.min.js"></script>
+</head>
+
+<body class="layout">
+
+
+<main>
+    <div class="tab shadow-1 white" id="tab">
+        <div class="tabs">
+            <ul class="tab-menu">
+                <script type="application/javascript">
+                    addTabsItems();
+                </script>
+            </ul>
+        </div>
+    </div>
+
+
+</main>
+
+
+<script>
+    // NOTE: this is NOT to be used if data-ax="tab" is set in your HTML
+    let tab = new Axentix.Tab('#tab', {
+        animationDuration: 500
+    });
+
+
+    var dateDeb = 1669636545000;
+    var dateFin = dateDeb + 5 * 24 * 60 * 60 * 1000;
+    var holyday = [1672055745000, 1676289345000, 1681127745000];
+    for (let j = 1; j < 26; j++) {
+
+        if (!(holyday.includes(dateDeb))) {
+
+            if (getWeekNumber(dateFin) == getWeekNumber(Date.now()) + 1) {
+                tab.select("tab" + j);
+
+            }
+            dateDeb += 7 * 24 * 60 * 60 * 1000
+            dateFin = dateDeb + 5 * 24 * 60 * 60 * 1000
+
+        } else {
+            dateDeb += 1 * 7 * 24 * 60 * 60 * 1000
+            dateFin = dateDeb + 5 * 24 * 60 * 60 * 1000
+            j = j - 1
+        }
+    }
+
+
+</script>
+
+</body>
+
+
+</html>
+
+
+
