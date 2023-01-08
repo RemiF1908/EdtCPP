@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <title>EDT CPP</title>
     <meta charset="utf-8">
@@ -42,7 +42,7 @@
 
         if (!(holyday.includes(dateDeb))) {
 
-            if (getWeekNumber(dateFin) == getWeekNumber(Date.now()) + 1) {
+            if (getWeekNumber(dateFin) === getWeekNumber(Date.now()) + 1) {
                 tab.select("tab" + (j-1));
 
             }
@@ -50,7 +50,7 @@
             dateFin = dateDeb + 5 * 24 * 60 * 60 * 1000
 
         } else {
-            dateDeb += 1 * 7 * 24 * 60 * 60 * 1000
+            dateDeb += 7 * 24 * 60 * 60 * 1000
             dateFin = dateDeb + 5 * 24 * 60 * 60 * 1000
             j = j - 1
         }
