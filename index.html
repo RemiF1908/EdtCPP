@@ -43,7 +43,7 @@
         if (!(holyday.includes(dateDeb))) {
 
             if (getWeekNumber(dateFin) == getWeekNumber(Date.now()) + 1) {
-                tab.select("tab" + j);
+                tab.select("tab" + (j-1));
 
             }
             dateDeb += 7 * 24 * 60 * 60 * 1000
