@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="590d2024-23fb-4cfc-9a6a-bda79fc5e0a4" name="Changes" comment="Edt 9/1 maj + bug mineur">
+    <list default="true" id="590d2024-23fb-4cfc-9a6a-bda79fc5e0a4" name="Changes" comment="Ajout EDT ics + syntaxe fichier">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +74,8 @@
       <workItem from="1673117799338" duration="301000" />
       <workItem from="1673119455861" duration="367000" />
       <workItem from="1673189681295" duration="363000" />
+      <workItem from="1673212611719" duration="916000" />
+      <workItem from="1673293587562" duration="277000" />
     </task>
     <task id="LOCAL-00001" summary="First deploy !">
       <created>1673110821808</created>
@@ -103,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673189957875</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajout EDT ics + syntaxe fichier">
+      <created>1673212881369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673212881369</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +134,7 @@
     <MESSAGE value="J'ai oublié le titre, ça commence bien..." />
     <MESSAGE value="Vacances ! (le plus important)" />
     <MESSAGE value="Edt 9/1 maj + bug mineur" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edt 9/1 maj + bug mineur" />
+    <MESSAGE value="Ajout EDT ics + syntaxe fichier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout EDT ics + syntaxe fichier" />
   </component>
 </project>

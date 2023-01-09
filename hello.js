@@ -85,7 +85,7 @@ function addTabsItems() {
             if (dateDeb > Date.now()) {
                 var color = "airforce";
             }
-            if (dateFin - 1 * 7 * 24 * 60 * 60 * 1000 < Date.now() && dateDeb > Date.now()) {
+            if (dateFin - 7 * 24 * 60 * 60 * 1000 < Date.now() && dateFin > Date.now()) {
                 var color = 'viride';
 
             }
